@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Bug Exterminator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Bug Exterminator</h1>
+        <div class="form-container">
+            <div class="language-selector">
+                <label for="language">Language:</label>
+                <select id="language">
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="cpp">C++</option>
+                    <option value="java">Java</option>
+                </select>
+            </div>
+            <div class="code-editor">
+                <textarea id="code" placeholder="Enter your code here..."></textarea>
+            </div>
+            <button id="submit-btn">Analyze Code</button>
+        </div>
+        <div class="output-panel">
+            <h2>Analysis Results</h2>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
